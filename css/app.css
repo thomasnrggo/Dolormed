@@ -56,7 +56,7 @@ header{
 }
 
 .topbar-responsive .menu a:hover {
-  color: #c6d1d8;
+  color: #2b4061;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -108,6 +108,17 @@ header{
     margin-bottom: 4px;
   }
 }
+
+/* ----------- ALTERNATIVE MENU ----------- */
+
+  .top-bar-regular .menu a {
+    color: #002C59;
+    transition: color 0.15s ease-in;
+  }
+
+  .top-bar-regular .menu a:hover {
+    color: #B5CC40;
+  }
 
 /* --------------- HOME --------------- */
 
