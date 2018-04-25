@@ -17,6 +17,11 @@ h2 {
   letter-spacing: -1px;
 }
 
+.fa, .fas {
+  color: #cddc18;
+  margin-right: 8px;
+}
+
 .img-responsive img {
   width: 100%;
   height: auto;
@@ -61,8 +66,23 @@ h2 {
   padding-bottom: 18px;
 }
 
+/* --------------- BACKGROUND --------------- */
 
 
+.bg-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-services {
+  background-image: url(../assets/img/bg-doctor-example.jpg);
+
+}
+
+.bg-paramedico {
+  background-image: url(../assets/img/bg-doctor-example.jpg);
+  background-size: cover;
+}
 
 /* --------------- MENU --------------- */
 
@@ -170,23 +190,23 @@ header{
 
 /* --------------- FOOTER --------------- */
 
-footer {
-  padding: 2% 0;
-}
+  footer {
+    padding: 2% 0;
+  }
 
-footer .topbar-responsive .menu a {
-  color: #002C59;
-  transition: color 0.15s ease-in;
-}
+  footer .topbar-responsive .menu a {
+    color: #002C59;
+    transition: color 0.15s ease-in;
+  }
 
-footer .topbar-responsive .menu a:hover {
-  color: #B5CC40;
-}
+  footer .topbar-responsive .menu a:hover {
+    color: #B5CC40;
+  }
 
-footer .menu-icon::after {
-  background: #002C59;
-  box-shadow: 0 7px 0 #002C59, 0 14px 0 #002C59;
-}
+  footer .menu-icon::after {
+    background: #002C59;
+    box-shadow: 0 7px 0 #002C59, 0 14px 0 #002C59;
+  }
 
 
 /* --------------- HOME --------------- */
@@ -198,10 +218,10 @@ footer .menu-icon::after {
 
     /* -------- SERVICES CARDS ------- */
 
-    .bg-contain {
-      background-image: url(../assets/img/bg-doctor-example.jpg);
-      background-repeat: no-repeat;
-      background-size: contain;
+    @media (max-width: 1040px) {
+      .bg-contain {
+        background-image: none;
+      }
     }
 
     #dolormed-services .services-container {
