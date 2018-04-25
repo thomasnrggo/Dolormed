@@ -39,10 +39,29 @@ h2 {
 }
 
 #map {
-        width: 100%;
-        height: 300px;
-        background-color: grey;
-      }
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+
+.info-contacto{
+    padding: 5% 0 5%;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list.contacto li:first-child {
+  margin-top: 12px;
+}
+
+.list.contacto li {
+  padding-bottom: 18px;
+}
+
+
+
 
 /* --------------- MENU --------------- */
 
@@ -153,6 +172,23 @@ header{
 footer {
   padding: 4% 0;
 }
+
+footer .topbar-responsive .menu a {
+  color: #002C59;
+  transition: color 0.15s ease-in;
+}
+
+footer .topbar-responsive .menu a:hover {
+  color: #B5CC40;
+}
+
+
+
+footer .menu-icon::after {
+  background: #002C59;
+  box-shadow: 0 7px 0 #002C59, 0 14px 0 #002C59;
+}
+
 
 /* --------------- HOME --------------- */
 
