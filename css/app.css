@@ -11,10 +11,38 @@ h1, h2, h3, h4, h5, h6 {
   color: #002C59;
 }
 
+h2 {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
 .img-responsive img {
   width: 100%;
   height: auto;
 }
+
+.btn-dolormed {
+  background-color: #cddc18 !important;
+  color: white !important;
+  border-radius: 350px;
+  padding: 12px 5%;
+  font-weight: 700;
+  border: none !important;
+  text-align: center;
+}
+
+.btn-dolormed:hover {
+  background-color: #002C59 !important;
+  color: white !important;
+  font-weight: 700;
+  border: none;
+}
+
+#map {
+        width: 100%;
+        height: 300px;
+        background-color: grey;
+      }
 
 /* --------------- MENU --------------- */
 
@@ -120,6 +148,12 @@ header{
     color: #B5CC40;
   }
 
+/* --------------- FOOTER --------------- */
+
+footer {
+  padding: 4% 0;
+}
+
 /* --------------- HOME --------------- */
 
     #first-vh{
@@ -128,6 +162,16 @@ header{
     }
 
     /* -------- SERVICES CARDS ------- */
+
+    .bg-contain {
+      background-image: url(../assets/img/bg-doctor-example.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    #dolormed-services .services-container {
+      margin-top: 2%;
+    }
 
     #dolormed-services {
       padding: 48px 0;
