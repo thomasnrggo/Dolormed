@@ -72,16 +72,31 @@ h2 {
 .bg-contain {
   background-repeat: no-repeat;
   background-size: contain;
+  min-height: 40vh;
 }
 
 .bg-services {
   background-image: url(../assets/img/bg-doctor-example.jpg);
-
+  background-size: cover;
+  min-height: 55vh;
 }
 
 .bg-paramedico {
-  background-image: url(../assets/img/bg-doctor-example.jpg);
+  background-image: url(../assets/img/bg-paramedico-example.jpg);
   background-size: cover;
+  min-height: 65vh;
+}
+
+.bg-services-2 {
+  background-image: url(../assets/img/tratamiento-example.jpg);
+  background-size: contain;
+  min-height: 65vh;
+}
+
+@media (max-width: 1024px) {
+  .bg-contain {
+    background-image: none;
+  }
 }
 
 /* --------------- MENU --------------- */
@@ -188,6 +203,11 @@ header{
     color: #B5CC40;
   }
 
+  .top-bar-regular .menu-icon::after {
+    background: #002C59;
+    box-shadow: 0 7px 0 #002C59, 0 14px 0 #002C59;
+  }
+
 /* --------------- FOOTER --------------- */
 
   footer {
@@ -218,11 +238,6 @@ header{
 
     /* -------- SERVICES CARDS ------- */
 
-    @media (max-width: 1040px) {
-      .bg-contain {
-        background-image: none;
-      }
-    }
 
     #dolormed-services .services-container {
       margin-top: 2%;
@@ -253,6 +268,50 @@ header{
       margin: auto;
       color: #002C59;
     }
+
+/* --------------- ABOUT --------------- */
+
+    #dolormed-paramedico {
+      margin-top: 2%;
+      margin-bottom: 5%;
+    }
+
+    .paramedico-container {
+      margin-top: 20%;
+    }
+
+    @media (max-width: 1024px) {
+
+      #dolormed-paramedico {
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+
+      .paramedico-container {
+        margin-top: 5%;
+      }
+    }
+
+    #cuandoasistir {
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    .cuando-container {
+      margin-top: 15%;
+    }
+
+    .tratamientos-container {
+      padding-top: 10%;
+    }
+
+    .proceso-container{
+      margin-top: 5%;
+    }
+
+/* --------------- TRATAMIENTOS --------------- */
+
+
 
 
 /* --------------- ANIMATIONS --------------- */
