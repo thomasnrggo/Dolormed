@@ -247,6 +247,10 @@ header{
       padding: 48px 0;
     }
 
+    .principal{
+      margin-top: 170px;
+    }
+
     #dolormed-services .card {
       background-color: #F8F8F8;
       border: none;
@@ -268,6 +272,8 @@ header{
       margin: auto;
       color: #002C59;
     }
+
+
 
 /* --------------- ABOUT --------------- */
 
@@ -307,6 +313,23 @@ header{
 
     .proceso-container{
       margin-top: 5%;
+    }
+    .ayuda{
+      margin-top: 3.5%;
+    }
+
+/* --------------- ESTADOS FINANCIEROS --------------- */
+    .lista ul{
+      margin-top: 50px;
+      font-size: 1.4em;
+    }
+    .lista a:hover{
+      color: #cddc18;
+      text-decoration: underline;
+    }
+    .vigilado{
+      width: 35%;
+      margin-top: 30px;
     }
 
 /* --------------- TRATAMIENTOS --------------- */
