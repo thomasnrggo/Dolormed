@@ -359,6 +359,10 @@ header{
 
 /* --------------- SERVICIOS --------------- */
 
+  .servicio-container{
+    margin-top: 8%;
+  }
+
 
 /* --------------- PROGRAMAR CITA --------------- */
 
