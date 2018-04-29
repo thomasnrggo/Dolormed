@@ -304,7 +304,11 @@ header{
     }
 
     .cuando-container {
-      margin-top: 15%;
+      margin-top: 10%;
+    }
+
+    .cuando-container h2 {
+      margin-bottom: 4%;
     }
 
     .tratamientos-container {
