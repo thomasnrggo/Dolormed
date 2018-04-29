@@ -218,6 +218,10 @@ header{
     padding: 2% 0;
   }
 
+  footer .header-logo {
+    margin: auto;
+  }
+
   footer .topbar-responsive .menu a {
     color: #002C59;
     transition: color 0.15s ease-in;
