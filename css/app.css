@@ -54,16 +54,20 @@ h2 {
     padding: 5% 0 5%;
 }
 
-.list {
+.lista {
   list-style-type: none;
 }
 
-.list.contacto li:first-child {
+.lista.contacto li:first-child {
   margin-top: 12px;
 }
 
-.list.contacto li {
-  padding-bottom: 18px;
+.lista.contacto li {
+  padding-bottom: 24px;
+}
+
+.lista.contacto.direccion {
+  margin-top: -8%;
 }
 
 /* --------------- BACKGROUND --------------- */
