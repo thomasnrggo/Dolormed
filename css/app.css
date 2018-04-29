@@ -349,10 +349,19 @@ header{
       margin-top: 30px;
     }
 
-/* --------------- TRATAMIENTOS --------------- */
+/* --------------- SERVICIOS --------------- */
 
 
+/* --------------- PROGRAMAR CITA --------------- */
 
+#dolormed-citas h2 {
+  line-height: 3.6rem;
+}
+
+.help-txt {
+  font-size: .8rem;
+  text-align: center;
+}
 
 /* --------------- ANIMATIONS --------------- */
 
