@@ -244,11 +244,15 @@ header{
 /* --------------- HOME --------------- */
 
     #first-vh{
-      height: 100vh;
+      /* height: 100vh; */
       background-color: #002C59;
     }
 
     /* -------- SERVICES CARDS ------- */
+
+    .card {
+      padding-top: 5%;
+    }
 
 
     #dolormed-services .services-container {
