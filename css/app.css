@@ -44,6 +44,11 @@ h2 {
   border: none;
 }
 
+.btn-dolormed.btn-contacto:hover {
+  background-color: #cddc18 !important;
+  color: #002C59 !important;
+}
+
 #map {
   width: 100%;
   height: 350px;
