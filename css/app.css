@@ -245,6 +245,10 @@ header{
     box-shadow: 0 7px 0 #002C59, 0 14px 0 #002C59;
   }
 
+  .social-mobile{
+    font-size: 2.5rem;
+  }
+
 
 /* --------------- HOME --------------- */
 
