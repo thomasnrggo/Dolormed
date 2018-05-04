@@ -68,7 +68,7 @@
 
                         <div class="cell small-6">
                           <label>Nombre
-                            <input type="text" id="nombre" placeholder="Mateo" aria-describedby="exampleHelpText" required >
+                            <input type="text" id="nombre" name="nombre" placeholder="Mateo" aria-describedby="exampleHelpText" required >
                             <span class="form-error">
                               Debes llenar este campo
                             </span>
@@ -78,7 +78,7 @@
 
                         <div class="cell small-6">
                           <label>Apellido
-                            <input type="text" id="apellido" placeholder="Lopez" aria-describedby="exampleHelpText" required >
+                            <input type="text" id="apellido" name="apellido" placeholder="Lopez" aria-describedby="exampleHelpText" required >
                             <span class="form-error">
                               Debes llenar este campo
                             </span>
@@ -90,7 +90,7 @@
                           <label>Documento de Identidad
                             <div class="grid-x grid-padding-x">
                               <div class="cell small-6">
-                                <select required>
+                                <select name="tipoDocumento" required>
                                   <option value="cedula">Cédula de ciudadanía</option>
                                   <option value="nit">Nit</option>
                                   <option value="cedulaExtranjero">Cédula de extranjeria</option>
@@ -102,7 +102,7 @@
                                 </span>
                               </div>
                               <div class="cell small-6">
-                                <input type="number" value="" required>
+                                <input type="number" value="" name="numeroDocumento" placeholder="2091382" required>
                                 <span class="form-error">
                                   Debes llenar este campo
                                 </span>
@@ -112,9 +112,17 @@
                           </label>
                         </div>
 
+                        <div class="cell small-6">
+                          <label for="">Telefono</label>
+                          <input type="number" name="telefono" value="" placeholder="227 7665">
+                          <span class="form-error">
+                            Debes llenar este campo
+                          </span>
+                        </div>
+
                         <div class="cell small-12">
                           <label>Correo Electronico
-                            <input type="email" placeholder="Mateolopez@email.com" aria-describedby="exampleHelpText2" required >
+                            <input type="email" name="email" placeholder="Mateolopez@email.com" aria-describedby="exampleHelpText2" required >
                             <span class="form-error">
                               Debes llenar este campo
                             </span>
@@ -129,7 +137,7 @@
 
                         <div class="cell small-6">
                           <label>de
-                            <input type="date" aria-describedby="exampleHelpText" required >
+                            <input type="date" name="fechaA" aria-describedby="exampleHelpText" required >
                             <span class="form-error">
                               Debes llenar este campo
                             </span>
@@ -138,7 +146,7 @@
 
                         <div class="cell small-6">
                           <label>de
-                            <input type="date" aria-describedby="exampleHelpText" required >
+                            <input type="date" name="fechaB" aria-describedby="exampleHelpText" required >
                             <span class="form-error">
                               Debes llenar este campo
                             </span>
