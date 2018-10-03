@@ -44,6 +44,10 @@ h2 {
   border: none;
 }
 
+.btn-contacto{
+  margin-top: -1%;
+}
+
 .btn-dolormed.btn-contacto:hover {
   background-color: #cddc18 !important;
   color: #002C59 !important;
@@ -75,6 +79,11 @@ h2 {
   margin-top: -8%;
 }
 
+strong, b, .strong{
+  font-weight: 400;
+  color: #12273c;
+}
+
 /* --------------- BACKGROUND --------------- */
 
 
@@ -87,6 +96,7 @@ h2 {
 .bg-services {
   background-image: url(../assets/img/bg-doctor-example.jpg);
   background-size: cover;
+  background-position: right;
   min-height: 55vh;
 }
 
@@ -94,6 +104,7 @@ h2 {
   background-image: url(../assets/img/bg-paramedico-example.jpg);
   background-size: cover;
   min-height: 65vh;
+  background-position: right;
 }
 
 .bg-services-2 {
@@ -115,8 +126,22 @@ header{
   font-weight: 500;
 }
 
-.header-logo{
+.header-logo img{
   max-width: 170px;
+  position: relative;
+}
+
+.Slogan {
+  /* max-width: 170px; */
+  position: absolute;
+  top: 38px;
+  left: 13%;
+  color: white;
+  line-height: 1em;
+  font-size: 1.1em;
+}
+.Slogan.alt-color {
+  color: #002C59;
 }
 
 .top-bar, .top-bar ul {
@@ -280,6 +305,7 @@ header{
       background-color: #F8F8F8;
       border: none;
       transition: .4s ease;
+      min-height: 32vh;
     }
 
     #dolormed-services .card:hover {
@@ -309,6 +335,11 @@ header{
 
     .paramedico-container {
       margin-top: 20%;
+    }
+
+    #dolormed-paramedico h2 {
+      font-size: 2.8rem;
+      line-height: 2.9rem;
     }
 
     @media (max-width: 1024px) {
@@ -380,13 +411,44 @@ header{
 /* --------------- PROGRAMAR CITA --------------- */
 
 #dolormed-citas h2 {
-  line-height: 3.6rem;
+  font-size: 2.8rem;
+  line-height: 2.9rem;
+  margin-bottom: 8%;
 }
 
 .help-txt {
   font-size: .8rem;
   text-align: center;
 }
+
+.lista-pasos-citas{
+  padding: 1% 5%;
+}
+
+.lista-pasos-citas li {
+  font-size: .9em;
+  margin-bottom: 2%;
+}
+
+.lista-pasos-citas li:before {
+  font-weight: 400;
+}
+
+.valoracion-container h2 {
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+}
+
+.valoracion-container .btn-dolormed {
+  padding: 13px 18%;
+}
+
+.valoracion-container .btn-container {
+  text-align: center;
+}
+
+
+
 
 /* --------------- ANIMATIONS --------------- */
 
