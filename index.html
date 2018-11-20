@@ -43,6 +43,16 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109491447-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109491447-6');
+    </script>
+
 
   </head>
   <body>
@@ -68,6 +78,7 @@
                   <li><a href="index.html">Inicio</a></li>
                   <li><a href="assets/html/acercadenosotros.html">Quienes somos</a></li>
                   <li><a href="assets/html/tratamientos.html">Tratamientos</a></li>
+                  <li><a href="assets/html/testimonios.html">Testimonios</a></li>
                   <li><a href="assets/html/valoracion.html">Programar cita</a></li>
                   <li><a href="assets/html/estadosfinancieros.html">Estados Financieros</a></li>
                   <li>
@@ -278,6 +289,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="assets/html/acercadenosotros.html">Quienes somos</a></li>
                 <li><a href="assets/html/tratamientos.html">Tratamientos</a></li>
+                <li><a href="assets/html/testimonios.html">Testimonios</a></li>
                 <li><a href="assets/html/valoracion.html">Programar cita</a></li>
                 <li><a href="assets/html/estadosfinancieros.html">Estados Financieros</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -328,6 +340,11 @@
         });
       }
     </script>
+    <script>
+      fbq('track', 'ViewContent');
+      fbq('track', 'CompleteRegistration');
+    </script>
+
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjc9xt8BwWJVbEjy3EnWohNzC0-_Oqi1g&callback=initMap">
     </script>

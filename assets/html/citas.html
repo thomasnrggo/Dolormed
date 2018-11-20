@@ -48,6 +48,7 @@
                 <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="./acercadenosotros.html">Quienes somos</a></li>
                 <li><a href="./tratamientos.html">Tratamientos</a></li>
+                <li><a href="./testimonios.html">Testimonios</a></li>
                 <li><a href="./valoracion.html">Programar cita</a></li>
                 <li><a href="./estadosfinancieros.html">Estados Financieros</a></li>
                 <li>
@@ -63,66 +64,71 @@
     <section id="dolormed-citas">
 
       <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <div class="large-12 cell">
 
-            <div class="grid-x grid-padding-x align-middle">
 
-              <div class="large-6 medium-6 cell">
-                <h2>
-                  ¡Agenda tu cita<br>particular desde hoy!
-                </h2>
-                <p>Por favor complete el siguiente formulario para reservar su próxima cita particular con nuestro médico general <strong>Walter Lara</strong>. Puede hacerlo por nuestro sistema de reservas en línea:</p>
+        <h2>
+          ¡Agenda tu cita<br>particular desde hoy!
+        </h2>
 
-                <ol class="lista-pasos-citas list-lower-alpha">
-                  <li>Elige fecha aproximada</li>
-                  <li>Para que tu cita quede correctamente agendada deberás recibir la llamada de nuestro centro de atención para validar la disponibilidad de horarios y confirmar la hora y fecha exactas de tu cita.</li>
-                  <li>También puedes comunicarte al PBX: (2) 225 77 65 o vía celular al 317 367 0803 para reservar.</li>
-                  <li>Recuerde estamos ubicados en Cra. 33a # 24-17 Tuluá, Valle del Cauca Colombia</li>
-                </ol>
+        <div class="grid-x grid-padding-x align-middle">
 
-                <p class="">Recuerde que el horario de atención es de:<br>
-                  <strong>Lunes a Viernes de 7:00 am a 12:00 pm | 2:00 pm a 6:00 pm</strong></p>
 
-                <p class="">Sábados solo servicio de información y atención del usuario:<br>9:00 am a 12: pm</p>
+          <div class="large-5 medium-5 cell">
+            <p>Por favor complete el siguiente formulario para reservar su próxima cita particular con nuestro médico general <strong>Walter Lara</strong>. Puede hacerlo por nuestro sistema de reservas en línea:</p>
 
-              </div>
+            <ol class="lista-pasos-citas list-lower-alpha">
+              <li>Elige fecha aproximada</li>
+              <li>Para que tu cita quede correctamente agendada deberás recibir la llamada de nuestro centro de atención para validar la disponibilidad de horarios y confirmar la hora y fecha exactas de tu cita.</li>
+              <li>También puedes comunicarte al PBX: (2) 225 77 65 o vía celular al 317 367 0803 para reservar.</li>
+              <li>Recuerde estamos ubicados en Cra. 33a # 24-17 Tuluá, Valle del Cauca Colombia</li>
+            </ol>
 
-              <div class="large-6 medium-6 cell">
-                <div class="valoracion-container">
+            <p class="">Recuerde que el horario de atención es de:<br>
+              <strong>Lunes a Viernes de 7:00 am a 12:00 pm | 2:00 pm a 6:00 pm</strong></p>
 
-                  <div class="form-container">
-                    <form action="correo-cita.php" method="POST" data-abide novalidate>
-                      <div data-abide-error class="alert callout" style="display: none;">
-                        <p><i class="fi-alert"></i> Ups! parece que falta informacion, o no es correcta, porfavor verifica y vuelve a intentar</p>
+            <p class="">Sábados solo servicio de información y atención del usuario:<br>9:00 am a 12: pm</p>
+
+
+
+          </div>
+
+          <div class="large-7 medium-7 cell">
+            <div class="valoracion-container">
+
+              <div class="form-container">
+                <form action="correo-cita.php" method="POST" data-abide novalidate>
+                  <div data-abide-error class="alert callout" style="display: none;">
+                    <p><i class="fi-alert"></i> Ups! parece que falta informacion, o no es correcta, porfavor verifica y vuelve a intentar</p>
+                  </div>
+                  <div class="grid-container">
+                    <div class="grid-x grid-margin-x">
+
+                      <div class="cell small-12 medium-6">
+                        <label>Nombre
+                          <input name="nombre" type="text" id="nombre" placeholder="Mateo" aria-describedby="exampleHelpText" required >
+                          <span class="form-error">
+                            Debes llenar este campo
+                          </span>
+                        </label>
+
                       </div>
-                      <div class="grid-container">
-                        <div class="grid-x grid-margin-x">
 
+                      <div class="cell small-12 medium-6">
+                        <label>Apellido
+                          <input name="apellido" type="text" id="apellido" placeholder="Lopez" aria-describedby="exampleHelpText" required >
+                          <span class="form-error">
+                            Debes llenar este campo
+                          </span>
+                        </label>
+
+                      </div>
+
+                      <div class="grid-x grid-padding-x form-inner-container-padding">
+                        <div class="small-12 medium-6 cell">
                           <div class="cell small-6">
-                            <label>Nombre
-                              <input name="nombre" type="text" id="nombre" placeholder="Mateo" aria-describedby="exampleHelpText" required >
-                              <span class="form-error">
-                                Debes llenar este campo
-                              </span>
-                            </label>
-
-                          </div>
-
-                          <div class="cell small-6">
-                            <label>Apellido
-                              <input name="apellido" type="text" id="apellido" placeholder="Lopez" aria-describedby="exampleHelpText" required >
-                              <span class="form-error">
-                                Debes llenar este campo
-                              </span>
-                            </label>
-
-                          </div>
-
-                          <div class="cell small-12">
                             <label>Documento de Identidad
                               <div class="grid-x grid-padding-x">
-                                <div class="cell small-6">
+                                <div class="cell small-12">
                                   <select name="documento" required>
                                     <option value="cedula">Cédula de ciudadanía</option>
                                     <option value="nit">Nit</option>
@@ -134,8 +140,8 @@
                                     Debes llenar este campo
                                   </span>
                                 </div>
-                                <div class="cell small-6">
-                                  <input name="ndocumento" type="number" value="" required>
+                                <div class="cell small-12">
+                                  <input name="ndocumento" type="number" value="" required placeholder="Numero de documento">
                                   <span class="form-error">
                                     Debes llenar este campo
                                   </span>
@@ -154,7 +160,7 @@
                             </label>
                           </div>
 
-                          <div class="cell small-12">
+                          <div class="cell small-6">
                             <label>Correo Electronico
                               <input name="correo" type="email" placeholder="Mateolopez@email.com" aria-describedby="exampleHelpText2" required >
                               <span class="form-error">
@@ -163,52 +169,56 @@
                             </label>
                           </div>
 
-                          <div class="cell small-12">
-                            <label>
-                              Fecha aproximada
-                            </label>
-                          </div>
+                        </div>
 
-                          <div class="cell small-6">
-                            <label>de
-                              <input name="fecha" type="date" aria-describedby="exampleHelpText" required >
-                              <span class="form-error">
-                                Debes llenar este campo
-                              </span>
-                            </label>
-                          </div>
-
-                          <div class="cell small-6">
-                            <label>de
-                              <input type="date" name="fechaB" aria-describedby="exampleHelpText" required >
-                              <span class="form-error">
-                                Debes llenar este campo
-                              </span>
-                            </label>
-                          </div>
-
-                          <div class="cell small-12">
-                            <p class="help-txt"><strong>Por favor tenga en cuenta que las fechas elegidas son tentativas</strong>, por lo tanto, nuestro personal se comunicara con usted lo más pronto posible para confirmar la fecha y la hora de la cita.</p>
-
-                          </div>
-
-
-                          <div class="cell small-12 btn-container">
-                            <button type="submit" class="button hollow topbar-responsive-button btn-dolormed">¡Agendar mi cita particular!</button>
-                          </div>
-
+                        <div class="small-12 medium-6 cell align-self-middle">
+                            <img class="hide-for-small-only" src="../img/preciosServicios.png" alt="">
                         </div>
                       </div>
-                    </form>
-                  </div>
 
-                </div>
+                      <div class="cell small-12">
+                        <label>
+                          Fecha aproximada:
+                        </label>
+                      </div>
+
+                      <div class="cell medium-6 small-12">
+                        <label>de
+                          <input name="fecha" type="date" aria-describedby="exampleHelpText" required >
+                          <span class="form-error">
+                            Debes llenar este campo
+                          </span>
+                        </label>
+                      </div>
+
+                      <div class="cell medium-6 small-12">
+                        <label>de
+                          <input type="date" name="fechaB" aria-describedby="exampleHelpText" required >
+                          <span class="form-error">
+                            Debes llenar este campo
+                          </span>
+                        </label>
+                      </div>
+
+                      <div class="cell small-12">
+                        <p class="help-txt"><strong>Por favor tenga en cuenta que las fechas elegidas son tentativas</strong>, por lo tanto, nuestro personal se comunicara con usted lo más pronto posible para confirmar la fecha y la hora de la cita.</p>
+
+                      </div>
+
+
+                      <div class="cell small-12 btn-container">
+                        <button type="submit" class="button hollow topbar-responsive-button btn-dolormed">¡Agendar mi cita particular!</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </form>
               </div>
 
             </div>
 
+            <img class="show-for-small-only" src="../img/preciosServicios.png" alt="">
           </div>
-
 
         </div>
       </div>
@@ -235,6 +245,7 @@
                 <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="./acercadenosotros.html">Quienes somos</a></li>
                 <li><a href="./tratamientos.html">Tratamientos</a></li>
+                <li><a href="./testimonios.html">Testimonios</a></li>
                 <li><a href="./valoracion.html">Programar cita</a></li>
                 <li><a href="./estadosfinancieros.html">Estados Financieros</a></li>
                 <li><a href="../../index.html#contacto">Contacto</a></li>
