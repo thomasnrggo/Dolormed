@@ -151,6 +151,13 @@ header{
   }
 }
 
+.Slogan.movil {
+  position: absolute;
+  left: 13.5em;
+  font-size: .8em;
+  top: 30%;
+}
+
 .top-bar, .top-bar ul {
   background-color: transparent;
 }
@@ -235,6 +242,12 @@ header{
 
 .menu.simple li + li {
   margin-left: 1.5rem;
+}
+
+@media (max-width:414px) {
+  .menu.simple li + li {
+    margin-left: 0 !important;
+  }
 }
 
 /* ----------- ALTERNATIVE MENU ----------- */
@@ -653,4 +666,18 @@ header{
 
 .testimonios-main-container .video-container {
   margin-bottom: 5%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
